@@ -1,0 +1,14 @@
+# rclone filters
+# use with this command:
+# (date && rclone --filter-from ~/Documents/dev/scripts/rclone-filter.txt sync /Volumes/Movies\ \&\ Photos/media amazon: -v) 2>> ~/Documents/dev/scripts/rclone-amazon.log
+# IMPORTANT: add --dry-run to be sure!
+- .DS_Store 
+- *.db 
+- *.MTS 
+- *.mp4 
+- *.mov 
+- *.AVI 
+- *.MOV 
+- *.MP4
+- *.ipmeta
+- *.afphoto
