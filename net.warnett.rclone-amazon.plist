@@ -12,7 +12,12 @@
     <string>/var/log/rclone-amazon.log</string>
     <key>RunAtLoad</key>
     <true/>
-    <key>StartInterval</key>
-    <integer>3600</integer>
+    <key>StartCalendarInterval</key>
+    <dict>
+		<key>Hour</key>
+		<integer>22</integer>
+		<key>Minute</key>
+		<integer>00</integer>
+	</dict>
 </dict>
 </plist>
